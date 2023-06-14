@@ -1,0 +1,26 @@
+:root {
+    --color-1: #008c9e;
+    --color-2: #fff;
+    --color-3: #373737;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-2);
+    color: var(--color-3);
+}
+
+a {
+    text-decoration: none;
+}

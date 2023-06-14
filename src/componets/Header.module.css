@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: var(--color-3);
+    color: var(--color-2);
+    margin: 0 0 10px 0;
+} 
+
+.title-header {
+    color: var(--color-2);
+}
+
+.link-header {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    color: #efeae4;
+}
+
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .link-header {
+        display: inline-block;
+        padding: 5px;
+    }
+}
