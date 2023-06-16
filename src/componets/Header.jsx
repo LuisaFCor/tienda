@@ -9,7 +9,7 @@ const Header = () => {
             <nav className='nav-header'>
                 <Link to='/productos' className='link-header'>Productos</Link>
                 <Link to='/pedidos' className='link-header'>Pedidos</Link>
-                <Link className='link-header'>Ganancias</Link>
+                <Link to='/ganancias' className='link-header'>Ganancias</Link>
             </nav>
         </header>
      );
